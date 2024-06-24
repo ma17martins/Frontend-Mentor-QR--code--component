@@ -1,0 +1,55 @@
+html{
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    font-size: 15px;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    color: hsl(218, 44%, 22%);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container .qr-code{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 330px;
+    height: 520px;
+    border-radius: 20px;
+}
+
+.container .qr-code .qr-code-informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .qr-code .qr-code-informations img{
+    margin: 15px 19px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container .qr-code .qr-code-informations h1{
+    font-size: 23px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container .qr-code .qr-code-informations p {
+    font-size: 16px; 
+    text-align: center;
+    margin: 20px 30px;
+    font-weight: 200;
+}
